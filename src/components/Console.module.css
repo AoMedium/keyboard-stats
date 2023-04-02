@@ -1,0 +1,31 @@
+.common {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.inputBlock {
+  display: inline-block;
+  background: black;
+  padding: 2px 0;
+  min-width: 25px;
+  min-height: 25px;
+  margin-right: 2px;
+
+  line-height: 25px;
+
+  border-radius: 2px;
+  
+  text-align: center;
+}
+
+.inputLine {
+  background-color: black;
+  color: blueviolet;
+}
+
+.textLine {
+  background-color: black;
+  color: white;
+
+  letter-spacing: 5px;
+}
