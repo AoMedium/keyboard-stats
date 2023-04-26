@@ -31,7 +31,6 @@ const options = {
       borderWidth: 2,
     },
   },
-  responsive: true,
   plugins: {
     legend: {
       position: 'top',
