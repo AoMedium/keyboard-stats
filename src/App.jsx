@@ -15,7 +15,7 @@ export const pages = [
   },
   {
     name: "Dashboard",
-    path: ROOT_PATH
+    path: ""
   },
   {
     name: "Examples",

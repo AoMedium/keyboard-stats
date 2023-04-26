@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./NavigationBar.module.css";
+import { ROOT_PATH } from "../App";
 
 /**
  * 
@@ -14,7 +15,7 @@ export default function NavigationBar({pages, active}) {
         {pages.map(page => {
           return (
             <li key={page.path}>
-              <Link to={page.path} className={active == page.name ? styles.active : ""}>
+              <Link to={ROOT_PATH + page.path} className={active == page.name ? styles.active : ""}>
                 {page.name}
               </Link>
             </li>
