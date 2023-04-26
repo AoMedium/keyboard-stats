@@ -1,0 +1,48 @@
+.chartPanel {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  flex-wrap: wrap;
+}
+
+.chartContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#textLineContainer {
+  justify-content: center;
+  align-items: start;
+  flex-flow: column;
+  overflow: hidden;
+}
+
+#keyInputPanel {
+  cursor: default;
+  position: fixed;
+  display: flex;
+  bottom: 5%;
+  height: 25px;
+
+  background-color: #222;
+  opacity: 0.5;
+
+  border: none;
+  border-radius: 10px;
+  box-shadow: none;
+
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+
+  transition: opacity 0.2s;
+}
+
+#keyInputPanel:hover {
+  opacity: 1;
+}

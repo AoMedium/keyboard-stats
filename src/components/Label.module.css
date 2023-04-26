@@ -1,0 +1,14 @@
+.label {
+  position: absolute;
+  padding: 8px 12px;
+
+  background-color: #222;
+  opacity: 0.8;
+  border-radius: 5px;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
