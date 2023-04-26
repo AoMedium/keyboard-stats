@@ -5,19 +5,21 @@ import Dashboard from './pages/Dashboard/Dashboard';
 import Examples from './pages/Examples/Examples';
 import Workspace from './pages/Workspace/Workspace';
 
+export const ROOT_PATH = '/keyboard-stats/';
+
 // List of pages (used in Navigation Bar)
 export const pages = [
   {
     name: "Workspace",
-    path: "/workspace"
+    path: "workspace"
   },
   {
     name: "Dashboard",
-    path: "/"
+    path: ROOT_PATH
   },
   {
     name: "Examples",
-    path: "/examples"
+    path: "examples"
   },
 ];
 
@@ -27,9 +29,11 @@ export default function App() {
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Dashboard />}/>
-          <Route path="examples" element={<Examples />}/>
-          <Route path="workspace" element={<Workspace />}/>
+          <Route path={ROOT_PATH}>
+            <Route index element={<Dashboard />}/>
+            <Route path="examples" element={<Examples />}/>
+            <Route path="workspace" element={<Workspace />}/>
+          </Route>
         </Routes>
       </div>
     </BrowserRouter>
