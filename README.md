@@ -1,5 +1,5 @@
-# Chart.js Tech Demo
-Ou-An Chuang (ochu761) - April 2023
+# Keyboard Stats (Chart.js Demo)
+AoMedium - April 2023
 
 ## Introduction
 This tech demo will run you through the basics of using Chart.js for React. 
